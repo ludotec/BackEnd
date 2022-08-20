@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("explab")
-@CrossOrigin( origins = {"http://localhost:4200"}, allowCredentials = "true")
+@RequestMapping("/explab")
+@CrossOrigin( origins = {"https://frontendcaf.web.app"}, allowCredentials = "true")
 public class CExperiencia {
 
     @Autowired

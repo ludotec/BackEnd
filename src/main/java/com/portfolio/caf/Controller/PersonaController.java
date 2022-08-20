@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin( origins = {"http://localhost:4200"}, allowCredentials = "true")
+@CrossOrigin( origins = {"https://frontendcaf.web.app"}, allowCredentials = "true")
 public class PersonaController {
 
     @Autowired
